@@ -13,6 +13,3 @@ Feature: User Access
       | 'News' section    |
       | 'Report' button   |
       | 'Home' title      |
-
-  Scenario: Doing my lab
-    Given I have 2 cucumber in my belly
