@@ -16,4 +16,3 @@ Feature: User Access
 
   Scenario: Doing my lab
     Given I have 2 cucumber in my belly
-    And I have given a while color balloon
