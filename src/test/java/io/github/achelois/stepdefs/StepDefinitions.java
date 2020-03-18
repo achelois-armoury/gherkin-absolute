@@ -1,9 +1,10 @@
-package stepdefs;
+package io.github.achelois.stepdefs;
 
 import cucumber.api.PendingException;
-import cucumber.api.java.en.Given;
-import cucumber.api.java.en.Then;
-import cucumber.api.java.en.When;
+import io.cucumber.datatable.DataTable;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 
 public class StepDefinitions {
     @Given("^I am on the \"([^\"]*)\" page on URL \"([^\"]*)\"$")
@@ -27,6 +28,7 @@ public class StepDefinitions {
     @Then("^I should see \"([^\"]*)\" message$")
     public void i_should_see_message(String arg1) throws Throwable {
         // Write code here that turns the phrase above into concrete actions
+
         throw new PendingException();
     }
 

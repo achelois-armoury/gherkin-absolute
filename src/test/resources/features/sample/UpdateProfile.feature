@@ -1,4 +1,5 @@
 @UpdateProfile
+@ignore
 Feature: Update Profile
   As an employee of the company
   I want to be able to update my name, projects, email, and phone numbers on my profile
@@ -27,7 +28,7 @@ Feature: Update Profile
     And I click on the "Save Changes" button
     Then I should see "Your personal info has been successfully updated" message
     Examples:
-      | project    | duration   | description   |
-      | Z-Mob      | 3 months   | QA            |
-      | WJ5-Web UI | 1 month    | UI Testing    |
-      | Q-Med      | 5 months   | UI Testing    |
+      | project    | duration | description |
+      | Z-Mob      | 3 months | QA          |
+      | WJ5-Web UI | 1 month  | UI Testing  |
+      | Q-Med      | 5 months | UI Testing  |
