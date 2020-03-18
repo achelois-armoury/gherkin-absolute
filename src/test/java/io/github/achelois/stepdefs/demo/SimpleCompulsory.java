@@ -36,9 +36,5 @@ public class SimpleCompulsory {
   public void iHaveCucumberInMyBelly(int arg0) {
   }
 
-  @And("I have given a {color} color balloon")
-  public void iHaveGivenAWhileColorBalloon() {
-
-  }
 
 }
