@@ -9,6 +9,7 @@ public class SimpleCompulsory {
 
   @Given("the \"([^\"]*)\" page is displayed")
   public void theLogInPageIsDisplayed(String page) {
+
   }
 
   @When("the correct user credentials are entered")
