@@ -28,13 +28,15 @@ public class SimpleCompulsory {
 
   }
 
-  @And("the \"([^\"]*)\" page contains the following:$")
+  @And("the \"([^\"]*)\" page contains the following:")
   public void theHomePageContainsTheFollowing(String page, List<String> criteria) {
-
+      criteria.forEach(System.out::println);
   }
 
-  @Given("I have {int} cucumber in my belly")
-  public void iHaveCucumberInMyBelly(int arg0) {
+  @Given("I have (.*) cucumber(.*)? in my belly(.*)?")
+  public void iHaveCucumberInMyBelly(int arg0, String snack, String who) {
+    System.out.println(arg0);
+    System.out.println(snack);
   }
 
 

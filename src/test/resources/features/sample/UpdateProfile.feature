@@ -1,5 +1,5 @@
 @UpdateProfile
-@ignore
+@ignore @dev
 Feature: Update Profile
   As an employee of the company
   I want to be able to update my name, projects, email, and phone numbers on my profile

@@ -13,3 +13,4 @@ Feature: User Access
       | 'News' section    |
       | 'Report' button   |
       | 'Home' title      |
+    And I have 4 cucumber in my belly
